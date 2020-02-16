@@ -1,17 +1,18 @@
 name: chariot
-description: Restful Api Toolkit!
+description: A RESTFUL API FRAMEWORK!
 # version: 1.0.0
 # homepage: https://www.example.com
 
 environment:
   sdk: '>=2.7.0 <3.0.0'
 
+version: 1.0.10
+
+homepage: 'https://github.com/wuquanyao'
+
 dev_dependencies:
   pedantic: ^1.8.0
   test: ^1.6.0
 
-#version
-version: '1.1.1'
-
-#homepage
-homepage: 'https://github.com/wuquanyao'
+dependencies:
+  dkit: ^0.0.1
