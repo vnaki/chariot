@@ -2,7 +2,7 @@ import 'package:chariot/chariot.dart';
 
 abstract class Kernel extends Container {
   ///内核版本号
-  String get version => '1.0.9';
+  String get version => '1.1.0';
 
   ///服务提供者
   List<Provider> providers = [];
